@@ -1,67 +1,73 @@
-*{
+html,body{
+    width:100%;
+    height:100%;
     margin:0px;
     padding: 0px;
-    box-sizing: border-box;
+    overflow-x:hidden;
+    /* box-sizing: border-box; */
 }
 .companynavbar{
     width:100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 40px;
     }
 .navbar1{
     display: flex;
-    justify-content: space-between;
-    margin: 40px;
     }
 .socialmedia{
-    display: inline-block;
     position: relative;
     height: 40px;
     width: 40px;
-    border: 1px solid rgb(99, 96, 96);
+    border: 0.5px solid rgb(233, 229, 229);
     border-radius: 20px;
     margin: 1.5px;
 }
+.socialmedia:hover{
+    background-color: #805c4a;
+    filter: invert(100%);
+    border:none;
+}
 .socialmedia img{
-    display: flex;
     position: absolute;
-    top:11px;
-    left:12px;
-    height:15px;
-    width: 15px;
+    top:11.1px;
+    left:11.5px;
+    height:16px;
+    width: 16px;
     align-items: center;
 }
-.companyname{
-    display: inline-block;  
-    width:500px;
-    margin-left: 250px;
+
+.companytitle{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.companyname .heading2{
-    letter-spacing: 2.2px;
+.companytitle .heading2{
+    letter-spacing: 3px;
     font-size: 15px;
+    font-weight: 400;
+    line-height: 0px;
     word-spacing: 1.5px;
     color: #CFBFC7;
 }
-.companyname .heading1{
+.companytitle .heading1{
      font-size: 23px;
+     line-height: 16px;
     font-weight:bolder;
-    font-family: Constantia;
+    font-family: Baskerville Old Face;
+    letter-spacing: 1.7px;
 }
 .searchbar{
     display: flex;
     position: relative;
-    height: 52px;
-    width:265px;
+    height: 50px;
+    width:300px;
     background-color:#EFEFEF;
     padding: 16px;
     border-radius: 26px;
     border-top-right-radius: 26px;
     border-bottom-right-radius:26px;
-    }
-    .search{
-        display: flex;
     }
 .searchbar input{
     border: none;
@@ -76,13 +82,106 @@
     right:0px;
 }
 .searchicon button{
-    height: 52px;
-    width:62px;
+    height: 50px;
+    width:50px;
     border:none;
     border-radius: 26px;
     border-top-left-radius: 0px;
     border-bottom-left-radius:0px;
     background-color: #95ADBE;
-    
+  }
+
+  @media (max-width: 900px) {
+      body{
+          margin: 0px;
+          padding: 0px;
+          box-sizing: border-box;
+      }
+    .companynavbar{
+        max-width:100%;
+        display: flex;
+        flex-direction: column;
+        }
+        .navbar1{
+            display: flex;
+            margin-top: 0px;
+            }
+            .companytitle{
+                margin-top: 25px;
+            }
+            .searchbar{
+                margin-top: 25px;
+                display: flex;
+                height: 50px;
+                width:600px;
+                }
+        
+                #navigationbar2{
+                    display: none;
+                }
+                #navbar2{
+                    display: none;
+                }
+                #menuoptionmain{
+                    display: flex;
+                    background-color: black;
+                    width:100%;
+                    text-align: center;
+                    align-items: center;
+                }
+                #menuoptionmain a{
+                    color: rgb(127,127,127);
+                    font-size: 17px;
+                    letter-spacing: 3px;
+                    font-family: roboto,arial,sans-serif;
+                }
+                
+
+            }
+                
+/* 2n navigation bar */
+.navigationbar2{
+    display: flex;
+    width: 100%;
+    height:70px;
+    justify-content: center;
+    border: 1px solid;
+    border-color: #EFEFEF;
+    align-items: center;
+}
+.navbar2{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.navbar2 ul{
+    display: flex;
+}
+.menuoptionmain{
+    display: none;
+        background-color: black;
+        width:100%;
+        padding: 15px;
+        padding-left: 50px;
+}
+.navbar2 .menu{
+    list-style: none;
+    font-family: serif;
+    padding: 20px;
+    padding-top:30px ;
+    font-size: 13px;
+}
+a{
+    text-decoration:none;
+    color: black;
+    letter-spacing: 1.5px;
     }
+.menu:hover{
+color: #95ADBE;
+border-bottom: 2px solid;
+border-width: 2px;
+border-color: #95ADBE;
+}
 

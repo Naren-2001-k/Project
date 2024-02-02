@@ -1,0 +1,105 @@
+@media (max-width: 1000px) {
+    #profile{
+        // display:block;
+        margin-top: 90px;
+        background-image:url(../Images/about-1.jpg.webp) ;
+        width: 100%;
+        height: auto;
+        margin-left: 20px;
+        object-fit: cover;
+        }
+    }
+@media (max-width: 790px) {
+    .profilecontainer{
+        display: flex;
+        width:auto;
+        height:auto;
+        margin-top: 0px;
+        #profile{
+            display: none;
+        }
+        #aboutprofile{
+            // display: flex;
+            width: auto;
+            height:auto;
+            text-align: left;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 20px;
+            #title{
+                padding-top: 30px;
+margin: 10px;
+            }
+            .heading{
+                font-size: 30px;
+                line-height:normal;
+                
+            }
+            .paragraph1{}
+            .paragraph2{}
+        }
+    }
+}
+.profilecontainer{
+    display: flex;
+    width:100%;
+    
+    .profile{
+        // display:block;
+        margin-top: 90px;
+        background-image:url(./Images/about-1.jpg.webp) ;
+        width: 100%;
+        height: 600px;
+        background-size: cover;
+        margin-left: 110px;
+        background-position: center;
+        }
+        .aboutprofile{
+            width: 100%;
+            justify-content: left;
+            text-align: left;
+            margin-left: 50px;
+            margin-right: 100px;
+            .title{
+                color:rgb(255,146,122);
+                padding-top: 150px;
+                letter-spacing: 2.5px;
+                font-size: 14px;
+                font-family: roboto,arial,sans-serif;
+            }
+            .heading{
+                color:rgb(77,77,77);
+                line-height: 70px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+                font-size: 55px;
+            }
+            .paragraph1{
+                color:rgb(145, 143, 143);
+                line-height: 30px;
+                font-weight: 100;
+                font-size: 17.5px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                font-family: roboto,arial,sans-serif;
+            }
+            .paragraph2{
+                color:rgb(145, 143, 143);
+                line-height: 30px;
+                font-size: 17.5px;
+                margin-bottom: 25px;
+                font-weight: 100;
+                font-family: roboto,arial,sans-serif;
+            }
+            a{
+                background-color: rgb(149,173,190);
+                padding: 10px;
+                border-radius: 4px;
+                font-family: roboto,arial,sans-serif;
+                letter-spacing: 0px;
+                font-weight:600 ;
+                font-size: 15px;
+                color: white;
+            }
+        }
+}

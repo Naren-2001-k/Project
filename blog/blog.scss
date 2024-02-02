@@ -1,0 +1,95 @@
+.blog{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    padding-bottom: 60px;
+    .title{
+        color: tomato;
+        font-size: 13px;
+        margin-bottom: 15px;
+        letter-spacing: 2.5px;
+        font-family: roboto,arial,sans-serif;
+    }
+    .heading{
+        font-size: 50px;
+        letter-spacing: 0px;
+font-weight:500;
+    }
+}
+.blogcontainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 0px 90px;
+    margin-bottom: 100px;
+    .blogcontent1{
+        display: flex;
+        position: relative;
+        width:350px;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        &:hover{
+            .calender{
+                background-color:rgb(149,173,190); 
+                .date{
+                    color:white;
+                }
+            }
+        }
+        img{
+            height: 250px;
+            width:350px;
+        }
+        .calender{
+            display: flex;
+            position: absolute;
+            top:200px;
+            height:100px;
+            width:100px;
+            border-radius: 50px;
+            background-color: rgb(245,244,240);
+            transition-property: background-color;
+        transition-duration: 1s;
+            flex-direction: column; 
+            justify-content: center;
+            .date{
+                font-size: 30px;
+                font-weight: 500;
+                color:rgb(149,173,190);
+                font-weight: bolder;
+                letter-spacing: 1.5px;
+            }
+            .month{
+                font-size: 16px;
+                font-family: roboto,arial,sans-serif;
+                font-weight: bolder;
+                letter-spacing: 1px;
+            }
+            .year{
+                font-size: 11px;
+                font-weight: 400;
+                color:rgb(133,133,133);
+                font-family: roboto,arial,sans-serif;
+                letter-spacing: 3px;
+            }
+        }
+        .title{
+            margin-top: 60px;
+            font-size: 20px;
+            word-spacing: 1.5px;
+            font-weight: 600;
+        }
+        .content{
+            font-size: 17px;
+            color:rgb(133,133,133);
+            margin-top: 20px;
+            line-height: 30px;
+            word-spacing: 1px;
+            font-family: roboto,arial,sans-serif;
+        }
+    }
+}

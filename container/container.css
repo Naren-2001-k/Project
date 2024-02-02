@@ -1,0 +1,230 @@
+@media (max-width: 900px) {
+  #section {
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    scroll-behavior: auto;
+  }
+  #section .container {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 600px;
+  }
+  #section .container .container__1 {
+    display: flex;
+    width: 420px;
+  }
+  #section .container .container__1 h1 {
+    line-height: normal;
+  }
+  #section .container .secondcontainer {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    position: absolute;
+    background-size: cover;
+    top: 580px;
+    left: 0px;
+  }
+  #section .container .secondcontainer .imagecontentcontainer {
+    margin: 20px;
+  }
+  #container3 {
+    padding: 30px;
+    margin-top: 1450px;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    margin-bottom: 50px;
+    background-color: rgb(156, 139, 71);
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 534px) {
+  #container3 {
+    padding: 30px;
+    margin-top: 1550px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(156, 139, 71);
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 425px) {
+  #container3 {
+    padding: 30px;
+    margin-top: 1750px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(156, 139, 71);
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 371px) {
+  #container3 {
+    padding: 30px;
+    margin-top: 1850px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(156, 139, 71);
+    justify-content: space-evenly;
+  }
+}
+section {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background-image: url(../Images/bg_1.jpg.webp);
+  background-size: cover;
+}
+section .container {
+  display: flex;
+  margin-top: 170px;
+  margin-left: 80px;
+}
+section .container .container__1 {
+  display: flex;
+  width: 770px;
+  margin-top: 0px;
+  text-align: left;
+  flex-direction: column;
+}
+section .container .container__1 h1 {
+  font-size: 70px;
+  font-weight: 545;
+  margin-bottom: 20px;
+}
+section .container .container__1 .container__heading1 {
+  font-size: 20px;
+  word-spacing: 1px;
+  font-weight: 500;
+  color: rgb(126, 126, 128);
+}
+section .container .container__1 .container__button {
+  display: flex;
+  margin-top: 20px;
+}
+section .container .container__1 .container__button .button1 {
+  color: white;
+  font-weight: 600;
+  background-color: rgb(149, 173, 190);
+  padding: 20px;
+  border-radius: 4px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+}
+section .container .container__1 .container__button .button2 {
+  margin-left: 5px;
+  color: black;
+  font-weight: 600;
+  padding: 20px;
+  background-color: white;
+  border-radius: 4px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+}
+section .container .secondcontainer {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  top: 550px;
+  left: 0px;
+  padding: 60px;
+}
+section .container .secondcontainer .imagecontentcontainer {
+  display: flex;
+  width: 100%;
+  margin: 0px 10px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+section .container .secondcontainer .imagecontentcontainer .imagecontainer {
+  display: flex;
+  position: relative;
+  height: 170px;
+  width: 170px;
+  margin-bottom: 30px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(244, 243, 240);
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  border-radius: 130px;
+}
+section .container .secondcontainer .imagecontentcontainer .imagecontainer:hover {
+  background-color: rgb(149, 173, 190);
+}
+section .container .secondcontainer .imagecontentcontainer .imagecontainer:hover .circle {
+  right: 55px;
+  background-color: rgb(255, 255, 255);
+}
+section .container .secondcontainer .imagecontentcontainer .imagecontainer .circle {
+  display: flex;
+  height: 38px;
+  width: 38px;
+  position: absolute;
+  top: 69px;
+  transition-property: right;
+  transition-duration: 0.5s;
+  right: 44px;
+  background-color: rgb(255, 99, 71);
+  border-radius: 20px;
+}
+section .container .secondcontainer .imagecontentcontainer .imagecontainer img {
+  height: 70px;
+  position: absolute;
+  top: 48px;
+  width: 70px;
+}
+section .container .secondcontainer .imagecontentcontainer .contentcontainer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+section .container .secondcontainer .imagecontentcontainer .contentcontainer h1 {
+  font-weight: 300;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+section .container .secondcontainer .imagecontentcontainer .contentcontainer p {
+  font-size: 17px;
+  word-spacing: 0px;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: roboto, Arial, sans-serif;
+  color: rgb(126, 126, 128);
+}
+
+.container3 {
+  padding: 30px;
+  margin-top: 350px;
+  display: flex;
+  width: 100%;
+  background-color: rgb(245, 244, 240);
+  justify-content: space-evenly;
+}
+.container3 .container3sub {
+  text-align: center;
+}
+.container3 .container3sub .strong {
+  font-size: 50px;
+  padding: 18px;
+  font-weight: 400;
+}
+.container3 .container3sub .title {
+  color: rgb(171, 170, 167);
+  font-family: roboto, Arial, sans-serif;
+  letter-spacing: 2px;
+  font-size: 16px;
+}/*# sourceMappingURL=container.css.map */

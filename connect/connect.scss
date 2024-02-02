@@ -1,0 +1,106 @@
+*{
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.aboutnavbar{
+    display: flex;
+    width:100%;
+    justify-content: space-evenly;
+    background-color: rgb(26,26,26);
+    padding: 100px;
+    height: 420px;
+    .connect{
+        display: flex;
+        flex-direction: column;
+        height:400px;
+        width: 200px;
+        margin-right: 60px;
+        .title{
+            color: white;
+            font-size: 22px;
+            font-weight: bolder;
+        }
+        .content{
+            color:white;
+            margin-top: 30px;
+            font-size: 17px;
+            line-height: 30px;
+            font-family: roboto,arial,sans-serif;
+        }
+    }
+    .connectsocial{
+        display: flex;
+        width:100%;
+        margin-top: 15px;
+        .socialmediaconnect{
+            display: flex;
+            height:50px;
+            width:50px;
+            margin-inline-end: 10px;
+            border-radius: 25px;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(148,172,189);
+            img{
+                height:15px;
+                width: 17px;
+                filter: invert(100%);
+            }
+        }
+    }
+    .extralinks{
+        display: flex;
+        flex-direction: column;
+        height:400px;
+        width: 200px;
+        
+        .title{
+            color: white;
+            font-size: 22px;
+            font-weight: bolder;
+            margin-left: -20px;
+        }
+        ul{
+            margin-top: 30px;
+            list-style: none;
+        li{
+            position: relative;
+            color: white;
+            line-height: 40px;
+            font-size: 17px;
+            img{
+                top:7px;
+                left:-30px;
+                position: absolute;
+            }
+        }
+    }
+    }
+    .contactus{
+        display: flex;
+        flex-direction: column;
+        height:400px;
+        width: 200px;
+    }
+    .title{
+        color: white;
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    
+    .location{
+        color: rgb(204,204,183);
+        position: relative;
+        margin-top: 30px;
+        line-height: 25px;
+        font-size: 17px;
+        font-family: roboto,arial,sans-serif;
+        img{
+            position: absolute;
+            top: 0px;
+            left:-40px;
+        }
+    }
+
+}
